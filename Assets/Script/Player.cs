@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Managers : MonoBehaviour
+public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-
+        Managers mg = Managers.Instance;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 }
